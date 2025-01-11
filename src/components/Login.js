@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import {updateProfile } from "firebase/auth";
 import { useDispatch } from 'react-redux';
 import {addUser} from "../utils/userSlice";
+import { USER_AVTAR } from '../utils/constants';
 
 
 
@@ -42,7 +43,7 @@ import {addUser} from "../utils/userSlice";
                  const user = userCredential.user;
                  updateProfile(user, {
                   displayName: name.current.value,
-                  photoURL: "https://avatars.githubusercontent.com/u/181433056?v=4",
+                  photoURL: USER_AVTAR,
                 })
                   .then(() => {
                     const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -59,7 +60,7 @@ import {addUser} from "../utils/userSlice";
                   .catch((error) => {
                     setErrorMessage(error.message);
                   });
-                   console.log(user);
+                  
                    
                     })
                 .catch((error) => {
