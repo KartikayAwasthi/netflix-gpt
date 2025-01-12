@@ -1,11 +1,28 @@
-export const LOGO="https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
+export const LOGO =
+  "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
 
-export const USER_AVTAR="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFDElEQVRYR+1WTUxcVRT+7hvmB4bhZxiwUECwhUJJW61ixKYkmlgjaZGKMSZujNGFK/+6qT+pLW5MLNXExJiYuNCmK6NGN40u1KqNmhSp2mrDtLRYBhiGnzJ05k1n3vPc++4b3nszA4wbXfQueHfuzznf+c53zoVdLQ3p+A8HuwngJgP/LwYYlUOaiqKmHMxfBn1uEVhWARdtFFsr3FaGLpV6gFAlcD0JxJZybK1UAaMbyRTQGAKuhIU/5q8F/D5gLg54XMWBSGeASj+ByECfj4Djwa2bgYko4CNQuhHRCoC0BtRVQr96Ca6+vXDf2wN1aBhQY7TeBCxeBxRhZu3BjQdKgejf4qx36A2kz4wg/eknYI2twDQxW6I4ABBN+kQY7qefQejYMJTycqhjY4i1baNIqgznyRtrO+cnPCVGlNNXEPzjHHxbO6ElEogdfBmpd96GQkzoMwsSgL9OcME2NSJz9gwqT55EYM8eaMkkFJ8Ps4deh3rkMO13AFNz6wNQWwV9/ALcz7+IumNHoakqFK8Xy6dOYb63F67tO6GHDXbYZGCDyAa7JQhtjNAeGULNa6+Kzcz8AqL9+6F9/w1YfQv0OAnJMXhSTH2ac1bmhU40s85m1H77NUpqSUs05o4OI3HgJSjtXdAjlFoBoKrBuK/RJxgQyL2HDsPTfScSx08gfeI4WMsWun1t/RrgtqrJ1uULcA0MouypJ5H67XeorxwEa24jPS2TZyMSNlnTtFJgN0i5oQroF/8UUQmZmM7dlNdiBrdVXQ4QCJK38MdaKY08kBKqKDnYZF2LvcIpIayGRFdKNC5S3V4j9bsIiiwbA7b8Y13LyQ0dypDrQBlYVcAox1kSHgdmKSYWqd9cXIvhpyky5vVA531jiejklBcaVA0cgH5+wkhhkHoDL3kzBZGmLesDIE7RH5cL2uXzWSJYxw7RNfmWTlFypphCjBFrOgc2EqYURKF03A5W5oN+KWL0CLMRTbV22QDoZIlJeDo3Rh2Sr3HIjOjUzv6Cyh9+FE7j776H9Afvy107BcYNCvqeXpQeeA4Vg49g6YsvEe/fB6V7F0DpEL6m2nY4NGDmOA+n5fQ+jJyG/7PPEXi4XxzILCwgFb6I9Pg4MtMzQEoFoybm2rgRnvZ2eDbdJs4lfx3F0ptvQfvqNLChms4ZTY1Nde5cJQXWKucZoKOUe230Jyhdd8H3wrPw9fTA3dwkOqdtUDrSszEkR0eR+JjK+aMPqarqge3U1lVyLts6m952t3wVjBTbhq3LyB88rxXkLLYA7a+RrBaUvgEoTQ2Am8QZj0M7R+X383dyvwFs91Z6ERPknITLHz4RPqV1+o5dPOmGc1vAcsFBQvYMr2USlTC2TKUapZyO8/5ODvx+ajhBetbpGeb9I0FPOo/aOegqm+nuJU9OL9aThRBYznDVS+ULQJwlXhEaldtqvYILe6bn/vWVYR5N/qslDtACikV3PyhTkA8H50iKj0+yc+laGONzeTf727KWw679+WLR+/ocngvkXvg0heKM3bq+1tyyz2OKPrBv7RQ4aCuaek65+X6Yl8UaaWD2of3UkPJgMOl00m7TpywnaSwHmGnXLLscPxzA3kcNANZD5txq0WksHw2FgKxCGZvtf2wlfKuBYmjP59hcWwM4iw08LjuhvTzMTmWkR1aA0KFkK/uV4sxHc6EgLOssNvhEbgoKUZbPoLnm/OZ0Pct/IWYg9P0HP7IPHgp3EvMAAAAASUVORK5CYII=";
+export const USER_AVATAR =
+  "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
 
-export const API_OPTIONS=  {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMTNhZWQzOGNkYWFmMWM5OWQwMTQ5Y2M1MjE5NDI4ZSIsIm5iZiI6MTczNjU2MzIyNi42NDMwMDAxLCJzdWIiOiI2NzgxZGExYTA2OTBhYzA2ZTc3YjE3ZjIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.n08GGmiIOwX6pCl3IEg8uoYyJwqQyI8GDyasnhtTtHg'
-    }
-  };
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMTNhZWQzOGNkYWFmMWM5OWQwMTQ5Y2M1MjE5NDI4ZSIsIm5iZiI6MTczNjU2MzIyNi42NDMwMDAxLCJzdWIiOiI2NzgxZGExYTA2OTBhYzA2ZTc3YjE3ZjIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.n08GGmiIOwX6pCl3IEg8uoYyJwqQyI8GDyasnhtTtHg'
+    ,
+  },
+};
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+
+export const BG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
+
+export const OPENAI_KEY = "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";
